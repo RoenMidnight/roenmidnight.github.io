@@ -187,6 +187,7 @@ header.masthead {
       font-size: 1.75em; } }
 
 #portfolio .portfolio-item {
+  text-align: center;
   right: 0;
   margin: 0 0 15px; }
   #portfolio .portfolio-item .portfolio-link {
@@ -223,6 +224,24 @@ header.masthead {
 
 #portfolio * {
   z-index: 2; }
+
+.portfolio-item img{
+  border-radius: 10px;
+  width: 75%;
+  background-color: #f1f1f1;
+  padding: 15px
+}
+.portfolio-item h3{
+  margin: 1rem auto;
+  display: inline-block;
+}
+
+.portfolio-item hr{
+  width: 10%;
+  display: inline-block;
+  margin: 0.5rem 10px;
+  border: 3px solid #2c3e50;
+}
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
